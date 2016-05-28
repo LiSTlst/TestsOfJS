@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <script type="text/javascript">
+            window.onload=function(){
+                var text=document.createElement("p");
+                var bodyElement=document.getElementsByTagName("body")[0];
+                bodyElement.appendChild(text);
+                var content=document.createTextNode("Hello world");
+                text.appendChild(content);
+                document.getElementsByTagName("div")[0].innerHTML="<p>This is inserted by innerHTML operator.</p>";
+            }
+        </script>
+    </head>
+    <body>
+        <div></div>
+        <script>
+                var text=document.createElement("p");
+                var bodyElement=document.getElementsByTagName("body")[0];
+                bodyElement.appendChild(text);
+                var content=document.createTextNode("Hello world");
+                text.appendChild(content);        
+        </script>
+    </body>
+</html>
